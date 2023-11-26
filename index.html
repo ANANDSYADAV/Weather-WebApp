@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="align">
+    
+    <div id="top">
+        Check Weather Updates
+    </div>
+
+    <input type="text" id="cityName" placeholder="Enter City Name">
+    <button type="button" id="search">Search</button>
+
+    <div>
+        <h1 id="h1">Weather for <span id="City"></span> : -</h1>        
+        <table id="card">
+            <thead>
+                <tr>
+                    <th id="heading">Parameters</th>
+                    <th id="heading">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="blue">
+                    <th id="row">Temperature</th>
+                    <td id="temp" class="white"></td>
+                </tr>
+                <tr id="grey">
+                    <th id="row">Feels Like</th>
+                    <td id="feels_like" class="white"></td>
+                </tr>
+                <tr id="blue">
+                    <th id="row">Cloud PCT</th>
+                    <td id="cloud_pct" class="white"></td>
+                </tr>
+                <tr id="grey">
+                    <th id="row">Min Temperature</th>
+                    <td id="min_temp" class="white"></td>
+                </tr>
+                <tr id="blue">
+                    <th id="row">Max Temperature</th>
+                    <td id="max_temp" class="white"></td>
+                </tr>
+                <tr id="grey">
+                    <th id="row">Wind Speed</th>
+                    <td id="wind_speed" class="white"></td>
+                </tr>
+                <tr id="blue">
+                    <th id="row">Wind Degrees</th>
+                    <td id="wind_degrees" class="white"></td>
+                </tr>
+                <tr id="grey">
+                    <th id="row">Humidity</th>
+                    <td id="humidity" class="white"></td>
+                </tr>
+                <tr id="blue">
+                    <th id="row">Sunrise Time</th>
+                    <td id="sunrise" class="white"></td>
+                </tr>
+                <tr id="grey">
+                    <th id="row">Sunset Time</th>
+                    <td id="sunset" class="white"></td>
+                </tr>
+            </div>
+            </tbody>
+      </table>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
